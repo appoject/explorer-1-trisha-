@@ -1,6 +1,11 @@
 [package]
 name = "explorer-1-trisha-"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+crossbeam-channel = "0.5"
+log = "0.4"
+env_logger = "0.11"
+rand = "0.10"
+common-game = "3.0"
