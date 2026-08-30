@@ -3,6 +3,10 @@ name = "explorer-1-trisha-"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "eco"
+path = "src/lib.rs"
+
 [dependencies]
 crossbeam-channel = "0.5"
 log = "0.4"
