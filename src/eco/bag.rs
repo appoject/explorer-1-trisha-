@@ -9,7 +9,7 @@ use common_game::components::resource::{BasicResourceType, ComplexResourceType, 
 pub struct Bag {
     resources: Vec<GenericResource>,
 }
-//yiybou
+
 impl Bag {
     /// Removes and returns the first basic resource of the given type, if any.
     pub fn take_basic(&mut self, want: BasicResourceType) -> Option<GenericResource> {
